@@ -13,7 +13,6 @@
 		F8830A51280E2375004090AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8830A4F280E2375004090AC /* Main.storyboard */; };
 		F8830A53280E2377004090AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8830A52280E2377004090AC /* Assets.xcassets */; };
 		F8830A56280E2377004090AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8830A54280E2377004090AC /* LaunchScreen.storyboard */; };
-		F8830A64280E2ACF004090AC /* ViewController22.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8830A63280E2ACF004090AC /* ViewController22.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		F8830A52280E2377004090AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8830A55280E2377004090AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8830A57280E2377004090AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8830A63280E2ACF004090AC /* ViewController22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController22.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +93,6 @@
 		F8830A60280E29D0004090AC /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				F8830A63280E2ACF004090AC /* ViewController22.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -189,7 +186,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8830A64280E2ACF004090AC /* ViewController22.swift in Sources */,
 				F8830A4E280E2375004090AC /* ViewController.swift in Sources */,
 				F8830A4A280E2375004090AC /* AppDelegate.swift in Sources */,
 				F8830A4C280E2375004090AC /* SceneDelegate.swift in Sources */,
