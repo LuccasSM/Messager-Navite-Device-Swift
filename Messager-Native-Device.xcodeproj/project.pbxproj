@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F85704F4280E3CBC00DEA9D2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85704F3280E3CBC00DEA9D2 /* Extensions.swift */; };
 		F8830A4A280E2375004090AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8830A49280E2375004090AC /* AppDelegate.swift */; };
 		F8830A4C280E2375004090AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8830A4B280E2375004090AC /* SceneDelegate.swift */; };
 		F8830A4E280E2375004090AC /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8830A4D280E2375004090AC /* ConversationsViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F85704F3280E3CBC00DEA9D2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F8830A46280E2375004090AC /* Messager-Native-Device.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messager-Native-Device.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8830A49280E2375004090AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8830A4B280E2375004090AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F85704F2280E357F00DEA9D2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F8830A65280E2C36004090AC /* LoginViewController.swift */,
+				F8830A67280E2C4F004090AC /* RegisterViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		F8830A3D280E2375004090AC = {
 			isa = PBXGroup;
 			children = (
@@ -82,8 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				F8830A4D280E2375004090AC /* ConversationsViewController.swift */,
-				F8830A65280E2C36004090AC /* LoginViewController.swift */,
-				F8830A67280E2C4F004090AC /* RegisterViewController.swift */,
+				F85704F2280E357F00DEA9D2 /* Login */,
 				F8830A69280E2C84004090AC /* PhotoViewerViewController.swift */,
 				F8830A6B280E2C96004090AC /* VideoPlayerViewController.swift */,
 				F8830A6D280E2CC6004090AC /* NewConversationViewController.swift */,
@@ -120,6 +130,7 @@
 			children = (
 				F8830A49280E2375004090AC /* AppDelegate.swift */,
 				F8830A4B280E2375004090AC /* SceneDelegate.swift */,
+				F85704F3280E3CBC00DEA9D2 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -209,6 +220,7 @@
 				F8830A6E280E2CC6004090AC /* NewConversationViewController.swift in Sources */,
 				F8830A4E280E2375004090AC /* ConversationsViewController.swift in Sources */,
 				F8830A6C280E2C96004090AC /* VideoPlayerViewController.swift in Sources */,
+				F85704F4280E3CBC00DEA9D2 /* Extensions.swift in Sources */,
 				F8830A4A280E2375004090AC /* AppDelegate.swift in Sources */,
 				F8830A70280E2CE3004090AC /* ProfileViewController.swift in Sources */,
 				F8830A4C280E2375004090AC /* SceneDelegate.swift in Sources */,
