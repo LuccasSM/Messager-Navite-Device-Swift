@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5CCF70661C31A78AA82C6B43 /* Pods_Messager_Native_Device.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8AEA5A7667D3705F223436F /* Pods_Messager_Native_Device.framework */; };
-		F8432ECB28174AED00C25EF7 /* Databasemanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8432ECA28174AED00C25EF7 /* Databasemanager.swift */; };
+		F8432ECB28174AED00C25EF7 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8432ECA28174AED00C25EF7 /* DatabaseManager.swift */; };
 		F85704F4280E3CBC00DEA9D2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85704F3280E3CBC00DEA9D2 /* Extensions.swift */; };
 		F8830A4A280E2375004090AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8830A49280E2375004090AC /* AppDelegate.swift */; };
 		F8830A4C280E2375004090AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8830A4B280E2375004090AC /* SceneDelegate.swift */; };
@@ -29,7 +29,7 @@
 		94BD908437D064254454BB69 /* Pods-Messager-Native-Device.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messager-Native-Device.debug.xcconfig"; path = "Target Support Files/Pods-Messager-Native-Device/Pods-Messager-Native-Device.debug.xcconfig"; sourceTree = "<group>"; };
 		A3EDBD62D9AA2366A8DAC26A /* Pods-Messager-Native-Device.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messager-Native-Device.release.xcconfig"; path = "Target Support Files/Pods-Messager-Native-Device/Pods-Messager-Native-Device.release.xcconfig"; sourceTree = "<group>"; };
 		E8AEA5A7667D3705F223436F /* Pods_Messager_Native_Device.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messager_Native_Device.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8432ECA28174AED00C25EF7 /* Databasemanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Databasemanager.swift; sourceTree = "<group>"; };
+		F8432ECA28174AED00C25EF7 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		F85704F3280E3CBC00DEA9D2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F8830A46280E2375004090AC /* Messager-Native-Device.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messager-Native-Device.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8830A49280E2375004090AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 				F8830A49280E2375004090AC /* AppDelegate.swift */,
 				F8830A4B280E2375004090AC /* SceneDelegate.swift */,
 				F85704F3280E3CBC00DEA9D2 /* Extensions.swift */,
-				F8432ECA28174AED00C25EF7 /* Databasemanager.swift */,
+				F8432ECA28174AED00C25EF7 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -293,7 +293,7 @@
 				F8830A66280E2C36004090AC /* LoginViewController.swift in Sources */,
 				F8830A68280E2C4F004090AC /* RegisterViewController.swift in Sources */,
 				F8830A6E280E2CC6004090AC /* NewConversationViewController.swift in Sources */,
-				F8432ECB28174AED00C25EF7 /* Databasemanager.swift in Sources */,
+				F8432ECB28174AED00C25EF7 /* DatabaseManager.swift in Sources */,
 				F8830A4E280E2375004090AC /* ConversationsViewController.swift in Sources */,
 				F8830A6C280E2C96004090AC /* VideoPlayerViewController.swift in Sources */,
 				F85704F4280E3CBC00DEA9D2 /* Extensions.swift in Sources */,
