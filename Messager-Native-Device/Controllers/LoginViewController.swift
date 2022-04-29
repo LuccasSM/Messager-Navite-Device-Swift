@@ -75,8 +75,18 @@ class LoginViewController: UIViewController {
     
     private let googleLogInButton = GIDSignInButton()
 
+    private var loginObserver: NSObjectProtocol?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        loginObserver = NotificationCenter.default.addObserver(forName: .didLogInNotification, object: nil, queue: .main, using: { [weak self] _ in
+            guard let strongSelf = self else {
+                return
+            }
+            
+            strongSelf.navigationController?.dismiss(animated: true, completion: nil)
+        })
         
         GIDSignIn.sharedInstance()?.presentingViewController = self
         
@@ -101,6 +111,12 @@ class LoginViewController: UIViewController {
         scrollView.addSubview(loginButton)
         scrollView.addSubview(facebookLoginButton)
         scrollView.addSubview(googleLogInButton)
+    }
+    
+    deinit {
+        if loginObserver != nil {
+            NotificationCenter.default.removeObserver(loginObserver!)
+        }
     }
     
     override func viewDidLayoutSubviews() {
