@@ -186,6 +186,7 @@
 				F8830A43280E2375004090AC /* Frameworks */,
 				F8830A44280E2375004090AC /* Resources */,
 				58BD10BA04170741C267F654 /* [CP] Embed Pods Frameworks */,
+				820A3BE7234F0983C7025280 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,6 +282,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Messager-Native-Device/Pods-Messager-Native-Device-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		820A3BE7234F0983C7025280 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Messager-Native-Device/Pods-Messager-Native-Device-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Messager-Native-Device/Pods-Messager-Native-Device-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Messager-Native-Device/Pods-Messager-Native-Device-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
